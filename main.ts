@@ -1,0 +1,10 @@
+music.playMelody("A F - A A F - A ", 559)
+basic.forever(function () {
+    basic.showArrow(ArrowNames.SouthEast)
+    basic.showArrow(ArrowNames.North)
+    basic.showArrow(ArrowNames.NorthEast)
+    basic.showArrow(ArrowNames.West)
+    basic.showArrow(ArrowNames.SouthWest)
+    basic.showArrow(ArrowNames.NorthWest)
+    basic.pause(100)
+})
